@@ -65,3 +65,15 @@ def turn (lr, times):
             agent.turn (RIGHT)
 
 ################## On Chat Commands Section #####################
+player.on_chat ("come", teleport)
+player.on_chat ("mf", MoveF)
+player.on_chat ("mb", MoveB)
+player.on_chat ("mu", MoveU)
+player.on_chat ("md", MoveD)
+player.on_chat ("ml", MoveL)
+player.on_chat ("mr", MoveR)
+player.on_chat ("tl", TurnL)
+player.on_chat ("tr", TurnR)
+player.on_chat ("obby1", obby1)
+player.on_chat ("m", move)
+player.on_chat ("t", turn)
