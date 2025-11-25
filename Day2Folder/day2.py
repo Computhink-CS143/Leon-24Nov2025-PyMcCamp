@@ -19,17 +19,17 @@ print ()
 print (name + "!!")
 
 
-name = "ADAM"
-for i in name:
-    if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
-        print (f'Give me an "{i}"!')
-    else:
-        print (f'Give me a "{i}"!')
+# name = "ADAM"
+# for i in name:
+#     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
+#         print (f'Give me an "{i}"!')
+#     else:
+#         print (f'Give me a "{i}"!')
 
-print (f"""
-Who is the best??!?
+# print (f"""
+# Who is the best??!?
 
-{name}!!""")
+# {name}!!""")
 
 
 ########################################################################
