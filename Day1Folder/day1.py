@@ -189,7 +189,7 @@ y = 10
 # Write your code below this line
 
 sum = x + y
-
+diff = abs ()
 ##############################################################################
 # Exercise 7:
 
