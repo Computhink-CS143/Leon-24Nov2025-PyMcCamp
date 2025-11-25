@@ -11,9 +11,9 @@
 # Task 2:
 for i in "ADAM":
     if i == "A":
-        print (f"Give me a {i}")
+        print (f"Give me an {i}")
     else:
-        print ()
+        print (f"Give me a {i}")
 
 
 ########################################################################
