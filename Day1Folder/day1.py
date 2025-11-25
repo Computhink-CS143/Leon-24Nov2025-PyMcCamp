@@ -188,11 +188,11 @@ y = 10
 
 # Write your code below this line
 
-sum = x + y
-diff = abs (x - y)
-product = x * y
-division1 = x / y
-division2 = y / x
+# sum = x + y
+# diff = abs (x - y)
+# product = x * y
+# division1 = x / y
+# division2 = y / x
 ##############################################################################
 # Exercise 7:
 
