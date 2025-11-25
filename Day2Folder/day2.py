@@ -11,7 +11,7 @@
 # Task 2:
 name = "ADAM"
 for letter in name:
-    
+    print ("")
 name = "ADAM"
 for i in name:
     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
