@@ -134,10 +134,10 @@
 
 # Example Output: Emperor Johnson commands his peasants to eat cake!
 
-title = "Emperor"
-name = "Leon"
-command = "grow wheat"
-print (f"{title}{name}")
+# title = "Emperor"
+# name = "Leon"
+# command = "grow wheat"
+# print (f"{title}{name} commands his peasants to {command}!")
 
 ##############################################################################
 # Exercise 4:
