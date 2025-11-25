@@ -209,10 +209,10 @@ y = 10
   
 # Write your code below this line
 
-allowance = 2
-allownace = f"{allowance:.2f}"
-name = "Leon"
-print (f"{name} has an allowance of ${allowance * 28} - ${allowance *31} in a month.")
-print (f"{name} has an allowance of ${allowance * 365} in a year.")
-print (f"{name} has a total allowance of ${allowance * 365 * 10 + 2} from Primary 1 to Secondary 4.")
+# allowance = 2
+# allownace = f"{allowance:.2f}"
+# name = "Leon"
+# print (f"{name} has an allowance of ${allowance * 28} - ${allowance *31} in a month.")
+# print (f"{name} has an allowance of ${allowance * 365} in a year.")
+# print (f"{name} has a total allowance of ${allowance * 365 * 10 + 2} from Primary 1 to Secondary 4.")
 ##############################################################################
