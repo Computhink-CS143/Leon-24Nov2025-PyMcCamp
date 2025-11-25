@@ -110,8 +110,8 @@
 # greet = "hello"
 # print(greet)
 
-name = "Leon"
-print (name)
+# name = "Leon"
+# print (name)
 
 ##############################################################################
 # Exercise 3:
@@ -128,9 +128,9 @@ print (name)
 # Do not add any additional lines to this program
 # The output of this program should be something like "Greetings Sir Ian" or "Greetings Queen Elsa"
 
-title = "Emperor"
-name = "Johnson"
-command = "eat cake"
+# title = "Emperor"
+# name = "Johnson"
+# command = "eat cake"
 
 # Example Output: Emperor Johnson commands his peasants to eat cake!
 
