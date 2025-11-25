@@ -11,7 +11,7 @@
 # Task 2:
 name = "ADAM"
 for i in name:
-    if i == "A":
+    if i == "A" or i == "E" or i == "":
         print (f'Give me an "{i}"!')
     else:
         print (f'Give me a "{i}"!')
