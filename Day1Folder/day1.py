@@ -136,7 +136,8 @@
 
 title = "Emperor"
 name = "Leon"
-command = ""
+command = "grow wheat"
+
 
 ##############################################################################
 # Exercise 4:
