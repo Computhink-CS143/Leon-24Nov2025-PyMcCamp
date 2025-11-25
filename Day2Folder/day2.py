@@ -10,8 +10,9 @@
 ########################################################################
 # Task 2:
 name = "ADAM"
-
-name = "SEBESTIAN"
+for letter in name:
+    
+name = "ADAM"
 for i in name:
     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
         print (f'Give me an "{i}"!')
