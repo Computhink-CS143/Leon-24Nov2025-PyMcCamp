@@ -146,11 +146,14 @@
 
 # an example of hello is given below
 
-def hello():
-  print("Hello, how are you")
-  print("My name is Sam")
+# def hello():
+#   print("Hello, how are you")
+#   print("My name is Sam")
 
-hello()
+# hello()
+
+def goodbye():
+    
 
 ##############################################################################
 # Exercise 5:
