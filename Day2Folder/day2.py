@@ -9,14 +9,14 @@
 
 ########################################################################
 # Task 2:
-name = "ADAM"
-for letter in name:
-    print ('Give me a "' + letter + '"!')
+# name = "ADAM"
+# for letter in name:
+#     print ('Give me a "' + letter + '"!')
 
-print ()
-print ("Who is the best??!?")
-print ()
-print (name + "!!")
+# print ()
+# print ("Who is the best??!?")
+# print ()
+# print (name + "!!")
 
 
 # name = "ADAM"
