@@ -9,7 +9,8 @@
 
 ########################################################################
 # Task 2:
-for i in "ADAM":
+name = "ADAM"
+for i in name:
     if i == "A":
         print (f'Give me an "{i}"!')
     else:
