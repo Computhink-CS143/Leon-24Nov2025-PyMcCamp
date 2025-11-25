@@ -4,31 +4,7 @@
 def teleport():
     agent.teleport_to_player()
 
-def MoveF(steps):
-    agent.move (FORWARD, steps)
-
-def MoveB(steps):
-    agent.move (BACK, steps)
-
-def MoveU(steps):
-    agent.move (UP, steps)
-
-def MoveD(steps):
-    agent.move (DOWN, steps)
-
-def MoveL(steps):
-    agent.move (LEFT, steps)
-
-def MoveR(steps):
-    agent.move (RIGHT, steps)
-
-def TurnL():
-    agent.turn (LEFT)
-
-def TurnR():
-    agent.turn (RIGHT)
-
-def obby1 ():
+def obby ():
     agent.move (FORWARD, 4)
     agent.move (LEFT, 4)
     agent.move (FORWARD, 3)
@@ -40,10 +16,10 @@ def obby1 ():
         agent.move (FORWARD, 1)
         agent.move (DOWN, 1)
 
-def move(fb, ud, lr, blks):
-    if fb == 2:
+def move(fblr, ud, blks):
+    if fblr == 2:
         agent.move (FORWARD, blks)
-    elif fb == 1:
+    elif fblr == 1:
         agent.move (BACK, blks)
     
     if ud == 2:
@@ -51,9 +27,9 @@ def move(fb, ud, lr, blks):
     elif ud == 1:
         agent.move (DOWN, blks)
     
-    if lr == 2:
+    if fblr == 4:
         agent.move (LEFT, blks)
-    elif lr == 1:
+    elif fblr == 3:
         agent.move (RIGHT, blks)
 
 def turn (lr, times):
