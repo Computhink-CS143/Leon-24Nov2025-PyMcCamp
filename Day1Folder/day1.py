@@ -209,7 +209,7 @@ y = 10
   
 # Write your code below this line
 
-allowance = 267
+allowance = 2
 name = "Leon"
 print ()
 ##############################################################################
