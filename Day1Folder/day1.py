@@ -152,8 +152,10 @@
 
 # hello()
 
-def goodbye():
-    print ("Goodbye friend")
+# def goodbye():
+#     print ("Goodbye friend")
+
+# goodbye()
 
 ##############################################################################
 # Exercise 5:
