@@ -60,6 +60,10 @@
 for i in range (67):
     print (i)
 
-for i in range (101)
+for i in range (101):
+    print (i)
+
+for i in range (7, 33):
+    print (i)
 ########################################################################
 # Additional exercises:
