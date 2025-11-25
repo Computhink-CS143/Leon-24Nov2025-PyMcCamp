@@ -4,8 +4,6 @@
 
 ########################################################################
 # Task 1:
-for i in range (100):
-    print ("I will not sling mud at my friends.")
 # for i in range (100):
 #     print ("I will not sling mud at my friends.")
 
@@ -32,7 +30,6 @@ for i in range (100):
 # Who is the best??!?
 
 # {name}!!""")
-
 
 ########################################################################
 # Task 3:
