@@ -191,7 +191,8 @@ y = 10
 sum = x + y
 diff = abs (x - y)
 product = x * y
-division = x / y
+division1 = x / y
+division2 = 
 ##############################################################################
 # Exercise 7:
 
