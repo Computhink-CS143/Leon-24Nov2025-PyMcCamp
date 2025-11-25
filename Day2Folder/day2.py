@@ -33,8 +33,8 @@
 
 ########################################################################
 # Task 3:
-for counter in range (10):
-    print (counter)
+# for counter in range (10):
+#     print (counter)
 
 
 # for i in range (10):
