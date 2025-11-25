@@ -137,7 +137,7 @@
 title = "Emperor"
 name = "Leon"
 command = "grow wheat"
-print (f"{title, name}")
+print (f"{title}{}")
 
 ##############################################################################
 # Exercise 4:
