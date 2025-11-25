@@ -16,10 +16,10 @@ for i in name:
     else:
         print (f'Give me a "{i}"!')
 
-print ("""
+print (f"""
 Who is the best??!?
 
-ADAM!!""")
+{name}!!""")
 
 
 ########################################################################
