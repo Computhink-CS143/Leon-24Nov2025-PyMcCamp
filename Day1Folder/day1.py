@@ -165,6 +165,8 @@
 ## Double the value of variable B using the * operator
 ## Print out the sum of variable A and B
 
+
+
 ##############################################################################
 # Exercise 6:
 
