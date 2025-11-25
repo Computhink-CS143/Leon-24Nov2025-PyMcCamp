@@ -37,7 +37,8 @@ for counter in range (10):
     print (counter)
 
 
-for i in range
+# for i in range (10):
+#     print (i)
 
 ########################################################################
 # Task 4:
