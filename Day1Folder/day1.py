@@ -107,8 +107,11 @@
 # An example is given below
 
 # Write codes here
-greet = "hello"
-print(greet)
+# greet = "hello"
+# print(greet)
+
+name = "Leon"
+print (name)
 
 ##############################################################################
 # Exercise 3:
