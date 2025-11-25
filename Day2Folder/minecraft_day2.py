@@ -65,3 +65,5 @@ def mine(length):
             agent.move (LEFT, 2)
 
 ################## On Chat Commands Section #####################
+player.on_chat ("chop", chop)
+player.on_chat ("mine", mine)
