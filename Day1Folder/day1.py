@@ -211,5 +211,5 @@ y = 10
 
 allowance = 2
 name = "Leon"
-print (f"{name} has {allowance * 28}")
+print (f"{name} has ${allowance * 28} - ${allowance}")
 ##############################################################################
