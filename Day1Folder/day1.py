@@ -135,7 +135,8 @@
 # Example Output: Emperor Johnson commands his peasants to eat cake!
 
 title = "Emperor"
-
+name = "Leon"
+command = ""
 
 ##############################################################################
 # Exercise 4:
