@@ -210,5 +210,6 @@ y = 10
 # Write your code below this line
 
 allowance = 2
-name
+name = "Leon"
+print ()
 ##############################################################################
