@@ -14,8 +14,8 @@ for i in "ADAM":
         print (f"Give me an {i}")
     else:
         print (f"Give me a {i}")
-print()
-print ("")
+
+print ("""Who is """)
 
 
 ########################################################################
