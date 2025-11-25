@@ -192,7 +192,6 @@ sum = x + y
 diff = abs (x - y)
 product = x * y
 division1 = x / y
-division2 = division1 ^ -1
 ##############################################################################
 # Exercise 7:
 
