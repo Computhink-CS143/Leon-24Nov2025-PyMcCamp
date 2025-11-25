@@ -211,5 +211,5 @@ y = 10
 
 allowance = 2
 name = "Leon"
-print (f"{name} has ${allowance * 28} - ${allowance}")
+print (f"{name} has ${allowance * 28} - ${allowance *31} in a month.")
 ##############################################################################
