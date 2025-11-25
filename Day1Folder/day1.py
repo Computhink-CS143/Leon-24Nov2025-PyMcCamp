@@ -210,7 +210,7 @@ y = 10
 # Write your code below this line
 
 allowance = 2
-allownace = f""
+allownace = f"{allowance:.2f}"
 name = "Leon"
 print (f"{name} has an allowance of ${allowance * 28} - ${allowance *31} in a month.")
 print (f"{name} has an allowance of ${allowance * 365} in a year.")
