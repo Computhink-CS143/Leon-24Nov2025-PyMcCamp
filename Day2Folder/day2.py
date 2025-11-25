@@ -6,7 +6,6 @@
 # Task 1:
 for i in range (100):
     print ("I will not sling mud at my friends.")
-    print (i)
 
 
 ########################################################################
