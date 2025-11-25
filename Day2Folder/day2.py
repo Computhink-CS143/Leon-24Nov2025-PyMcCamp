@@ -57,25 +57,25 @@
 
 ########################################################################
 # Practice:
-for i in range (67):
-    print (i)
+# for i in range (67):
+#     print (i)
 
-for i in range (101):
-    print (i)
+# for i in range (101):
+#     print (i)
 
-for i in range (7, 33):
-    print (i)
+# for i in range (7, 33):
+#     print (i)
 
-for i in range (65, 100):
-    print (i)
+# for i in range (65, 100):
+#     print (i)
 
-for i in range (2, 33, 2):
-    print (i)
+# for i in range (2, 33, 2):
+#     print (i)
 
-for i in range (5, 101, 5):
-    print (i)
+# for i in range (5, 101, 5):
+#     print (i)
 
-for i in range (100, -1, -1):
-    print (i)
+# for i in range (100, -1, -1):
+#     print (i)
 ########################################################################
 # Additional exercises:
