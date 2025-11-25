@@ -67,6 +67,12 @@ for i in range (7, 33):
     print (i)
 
 for i in range (65, 100):
+    print (i)
+
+for i in range (2, 33, 2):
+    print (i)
+
+for i in range (5, 101, 5):
     
 ########################################################################
 # Additional exercises:
