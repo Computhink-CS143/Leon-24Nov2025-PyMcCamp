@@ -79,3 +79,30 @@
 #     print (i)
 ########################################################################
 # Additional exercises:
+
+# Exercise 1:
+
+# Write a program to New Year Eve CountDown Program
+# count down from 10 to 0 and say "Happy New Year!" at the end
+
+##############################################################################
+# Exercise 2:
+
+# Write a program that sings the nursery rhymes using Loops and Nested Loops (e.g. Loop in a Loop)
+
+# Example: Baby Shark, Mary had a little lamb
+
+##############################################################################
+# Exercise 3:
+
+# Count all the multiples of 3 using the for loop, from 3 to 36
+
+for number in range(10):
+  print (number)
+
+##############################################################################
+# Exercise 4:
+
+# Using a for loop Say out all the odd numbers from 1 to 99
+
+##############################################################################
