@@ -65,5 +65,8 @@ for i in range (101):
 
 for i in range (7, 33):
     print (i)
+
+for i in range (65, 100):
+    
 ########################################################################
 # Additional exercises:
