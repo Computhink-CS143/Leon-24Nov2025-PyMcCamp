@@ -165,7 +165,8 @@
 ## Double the value of variable B using the * operator
 ## Print out the sum of variable A and B
 
-
+VarA = 1
+VarB = 2
 
 ##############################################################################
 # Exercise 6:
