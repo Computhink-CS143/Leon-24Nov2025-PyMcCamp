@@ -14,7 +14,7 @@ for letter in name:
     print ("Give me a " + letter)
 
 print ()
-p
+print ("Who is the best")
 name = "ADAM"
 for i in name:
     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
