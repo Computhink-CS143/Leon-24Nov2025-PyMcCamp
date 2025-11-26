@@ -86,7 +86,7 @@
 # count down from 10 to 0 and say "Happy New Year!" at the end
 
 for i in range (10, -1, -1):
-  print (str(i) + "!")
+  print (str (i) + "!")
 print ("Happy New Year!")
 
 ##############################################################################
