@@ -31,6 +31,7 @@
 # num_pens = 20
 # print (f"{name} bought {str (num_pens)} pens")
 
+# Bonus:
 # name = "Leon"
 # num_pens = input ("How many pens did you buy? ")
 # print (f"{name} bought {num_pens} pens")
