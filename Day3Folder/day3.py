@@ -12,7 +12,7 @@
 name = input ("What is your name? ")
 title = input ("What is your title? ")
 command = input ("What command do you want to give to your peasants? ")
-print (f"{title} {name} commands the peasants to {command}!")
+print (f"{title.capitalise()} {name} commands the peasants to {command}!")
 
 ########################################################################
 # Task 2:
