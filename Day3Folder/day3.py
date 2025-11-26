@@ -6,7 +6,7 @@
 # Task 1:
 name = input ("What is your name? ")
 title = input ("What is your title? ")
-command = input ("What command do you want to give to your pheasants? ")
+command = input ("What command do you want to give to your peasants? ")
 print (f"{title} {name} commands")
 
 
