@@ -111,6 +111,6 @@
 
 # Using a for loop Say out all the odd numbers from 1 to 99
 
-for i in range (1, 100, 2):
-    print (i)
+# for i in range (1, 100, 2):
+#     print (i)
 ##############################################################################
