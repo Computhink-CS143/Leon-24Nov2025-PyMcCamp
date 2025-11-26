@@ -19,12 +19,12 @@
 # Task 2:
 # name = "Leon"
 # num_pens = 20
-# print (name + " bought " + str (num_pens) + " pens")
+# print (name + " bought " + str (num_pens) + " pen(s)")
 
 # Bonus:
 # name = input ("What is your name? ")
 # num_pens = input ("How many pens did you buy? ")
-# print (name + " bought " + num_pens + " pens")
+# print (name + " bought " + num_pens + " pen(s)")
 
 
 # name = input ("What is your name? ")
