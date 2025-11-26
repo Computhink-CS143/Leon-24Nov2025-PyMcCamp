@@ -7,7 +7,7 @@
 name = input ("What is your name? ")
 title = input ("What is your title? ")
 command = input ("What command do you want to give to your peasants? ")
-print (title + " " + name" commands the peasants to {command}!")
+print (title + " " + name + " commands the peasants to " + command + "!")
 
 name = input ("What is your name? ")
 title = input ("What is your title? ")
