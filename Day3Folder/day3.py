@@ -9,6 +9,7 @@
 # command = input ("What command do you want to give to your peasants? ")
 # print (title + " " + name + " commands the peasants to " + command + "!")
 
+
 # name = input ("What is your name? ")
 # title = input ("What is your title? ")
 # command = input ("What command do you want to give to your peasants? ")
@@ -19,6 +20,7 @@
 name = "Leon"
 num_pens = 20
 print (name + " bought " + str (num_pens) + " pens")
+
 
 name = "Leon"
 num_pens = 20
