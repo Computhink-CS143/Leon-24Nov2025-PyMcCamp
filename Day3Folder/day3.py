@@ -7,7 +7,7 @@
 name = input ("What is your name? ")
 title = input ("What is your title? ")
 command = input ("What command do you want to give to your pheasants? ")
-
+print (f"{title} {name} ")
 
 
 ########################################################################
