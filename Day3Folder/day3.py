@@ -18,6 +18,10 @@
 # Task 2:
 name = "Leon"
 num_pens = 20
+print (name + " bought " + str (num_pens))
+
+name = "Leon"
+num_pens = 20
 print (f"{name} bought {str (num_pens)} pens")
 ########################################################################
 # Task 3:
