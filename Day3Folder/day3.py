@@ -38,7 +38,18 @@
 
 ########################################################################
 # Task 3:
-ASMD = input ('Do you want addition (type "1"), subtraction (type "2"), multiplication (type "3) or division (type "4?')
+CalType = input ('Do you want addition (type "1"), subtraction (type "2"), multiplication (type "3) or division (type "4")? ')
+num1 = input ("What is your first number? ")
+num2 = input ("What is your second number? ")
+if CalType == "1":
+    print (f"{num1} + {num2} = {str (float (num1) + float (num2))}")
+elif CalType == "2":
+    print (f"{num1} - {num2} = {str (float (num1) - float (num2))}")
+elif CalType == "3":
+    print (f"{num1} * {num2} = {str (float (num1) * float (num2))}")
+elif CalType == "4":
+    print (f"{num1} * {num2} = {str (float (num1) / float (num2))}")
+
 
 
 ########################################################################
