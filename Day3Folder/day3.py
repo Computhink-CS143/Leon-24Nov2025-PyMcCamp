@@ -21,7 +21,7 @@ name = "Leon"
 num_pens = 20
 print (name + " bought " + str (num_pens) + " pens")
 
-name = "Leon"
+name = input ("What is your name? ")
 num_pens = 20
 print (name + " bought " + str (num_pens) + " pens")
 
