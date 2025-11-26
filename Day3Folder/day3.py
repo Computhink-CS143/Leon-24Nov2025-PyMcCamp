@@ -17,9 +17,9 @@
 
 ########################################################################
 # Task 2:
-name = "Leon"
-num_pens = 20
-print (name + " bought " + str (num_pens) + " pen(s)")
+# name = "Leon"
+# num_pens = 20
+# print (name + " bought " + str (num_pens) + " pen(s)")
 
 # Bonus:
 # name = input ("What is your name? ")
