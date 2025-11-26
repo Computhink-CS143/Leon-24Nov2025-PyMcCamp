@@ -18,7 +18,7 @@
 # Task 2:
 name = "Leon"
 num_pens = 20
-print (name + " bought " + str (num_pens))
+print (name + " bought " + str (num_pens) + " pens")
 
 name = "Leon"
 num_pens = 20
