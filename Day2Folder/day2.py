@@ -96,7 +96,8 @@
 
 # Example: Baby Shark, Mary had a little lamb
 
-no
+# no
+
 ##############################################################################
 # Exercise 3:
 
