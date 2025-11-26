@@ -85,9 +85,9 @@
 # Write a program to New Year Eve CountDown Program
 # count down from 10 to 0 and say "Happy New Year!" at the end
 
-for i in range (10, -1, -1):
-  print (i + "!")
-
+# for i in range (10, -1, -1):
+#   print (i + "!")
+# print (Happy New Year!)
 ##############################################################################
 # Exercise 2:
 
