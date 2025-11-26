@@ -53,32 +53,32 @@ import random
 
 ########################################################################
 # Task 4:
-ItemList = []
-UnitList = []
-CostList = []
-TotalCost = 0
-done = "0"
-while done == "0":
-    item = input ("What item are you buying? (Singular noun) ")
-    unit = input (f"How many {item}s are you buying? ")
-    cost = int (unit) * random.randint (10, 1000) / 100
-    TotalCost = cost + TotalCost
-    cost = f"{cost:.2f}"
-    ItemList.append (item)
-    UnitList.append (unit)
-    CostList.append (cost)
-    done = input ("Is that all? (0 or 1) ")
-    print ()
+# ItemList = []
+# UnitList = []
+# CostList = []
+# TotalCost = 0
+# done = "0"
+# while done == "0":
+#     item = input ("What item are you buying? (Singular noun) ")
+#     unit = input (f"How many {item}s are you buying? ")
+#     cost = int (unit) * random.randint (10, 1000) / 100
+#     TotalCost = cost + TotalCost
+#     cost = f"{cost:.2f}"
+#     ItemList.append (item)
+#     UnitList.append (unit)
+#     CostList.append (cost)
+#     done = input ("Is that all? (0 or 1) ")
+#     print ()
 
-TotalCost = f"{TotalCost:.2f}"
-for i in range (len (ItemList)):
-    if UnitList [i] == "1":
-        print (f"The cost of the {ItemList [i]} is ${str (CostList [i])}.")
-    else:
-        print (f"The cost of the {UnitList [i]} {ItemList [i]}s is ${str (CostList [i])}.")
+# TotalCost = f"{TotalCost:.2f}"
+# for i in range (len (ItemList)):
+#     if UnitList [i] == "1":
+#         print (f"The cost of the {ItemList [i]} is ${str (CostList [i])}.")
+#     else:
+#         print (f"The cost of the {UnitList [i]} {ItemList [i]}s is ${str (CostList [i])}.")
 
-if len(ItemList) != 1:
-    print (f"The total cost of all the items is ${TotalCost}.")
+# if len(ItemList) != 1:
+#     print (f"The total cost of all the items is ${TotalCost}.")
 
 ########################################################################
 # Task 5:
