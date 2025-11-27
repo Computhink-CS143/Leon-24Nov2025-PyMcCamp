@@ -59,5 +59,8 @@ def dig():
     while agent.detect (AgentDetection.BLOCK, DOWN):
         agent.destroy (DOWN)
         agent.move (DOWN, 1)
-        
+
 ################## On Chat Commands Section #####################
+player.on_chat ("HouseWall", HouseWall)
+player.on_chat ("maze", maze)
+player.on_chat ("dig", dig)
