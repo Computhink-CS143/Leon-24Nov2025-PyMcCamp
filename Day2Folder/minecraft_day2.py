@@ -24,45 +24,37 @@ def chop():
         while not agent.detect(AgentDetection.BLOCK, FORWARD):
             agent.move (FORWARD, 1)
 
-def mine(length):
+def mine(length, lanes):
     while True:
         for i in range (2):
             agent.destroy (DOWN)
             agent.move (DOWN, 1)
-        for i in range (length):
-            agent.destroy (FORWARD)
-            agent.destroy (UP)
-            agent.destroy (DOWN)
-            agent.destroy (LEFT)
-            agent.destroy (RIGHT)
-            agent.move (DOWN, 1)
-            agent.collect_all()
-            agent.move (UP, 1)
-            agent.move (FORWARD, 1)
-        agent.destroy (LEFT)
-        agent.destroy (RIGHT)
-        agent.destroy (UP)
-        agent.destroy (DOWN)
-        agent.move (DOWN, 1)
-        agent.collect_all()
-        agent.move (UP, 1)
-        agent.move (LEFT, 1)
-        for i in range (2):
-            for j in range (2):
-               agent.turn (LEFT)
-            for k in range (length):
+
+        for j in range (lanes):
+            for i in range (length):
                 agent.destroy (UP)
                 agent.destroy (DOWN)
+                agent.destroy (FORWARD)
                 agent.move (DOWN, 1)
                 agent.collect_all()
                 agent.move (UP, 1)
                 agent.move (FORWARD, 1)
-                agent.destroy (UP)
-                agent.destroy (DOWN)
-                agent.move (DOWN, 1)
-                agent.collect_all()
-                agent.move (UP, 1)
-            agent.move (LEFT, 2)
+
+            agent.destroy (UP)
+            agent.destroy (DOWN)
+            agent.move (DOWN, 1)
+            agent.collect_all()
+            agent.move (UP, 1)
+            if j % 2 == 0:
+                agent.destroy (RIGHT)
+                agent.move (RIGHT, 1)
+            else:
+                agent.destroy (LEFT)
+                agent.move (LEFT, 1)
+
+            for i in range (2):
+                agent.turn (RIGHT)
+
 
 ################## On Chat Commands Section #####################
 player.on_chat ("chop", chop)
